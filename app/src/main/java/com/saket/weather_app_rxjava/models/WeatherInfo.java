@@ -5,6 +5,8 @@ import com.squareup.moshi.Json;
 public class WeatherInfo {
     @Json(name = "weather_state_name")
     private String name;
+    @Json(name = "weather_state_abbr")
+    private String abbr;
     private String min_temp;
     private String max_temp;
     private String wind_speed;
@@ -28,5 +30,9 @@ public class WeatherInfo {
 
     public String getHumidity() {
         return humidity;
+    }
+
+    public String getAbbr() {
+        return abbr;
     }
 }
