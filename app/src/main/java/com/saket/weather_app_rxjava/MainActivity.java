@@ -12,7 +12,7 @@ import com.saket.weather_app_rxjava.ui.FragmentCityList;
 
 /**
  * Date started - 07 August 2020.
- * Date completed -
+ * Date completed - 12 August 2020.
  * Purpose of this app is to have a clean implementation of the Weather app with Rxjava.
  * Schedulers can be used for multi-threaded calls and returning stream of data to the viewmodel.
  * I can also use some merge operations to return a combined result.
