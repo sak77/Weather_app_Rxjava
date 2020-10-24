@@ -19,7 +19,7 @@ Repository class is responsible for all data operations such as get, post, updat
 It resides between viewmodel and data source such as network API or Room DB.
  */
 public class CityWeatherRepo {
-
+    //Below code creates a local dependency on weatherAPI instance....need to optimize this.
     WeatherAPIClient.WeatherAPI_Endpoints weatherAPI_endpoints = WeatherAPIClient.getWeatherAPIRetrofitInstance();
 
     //We pass a consumer as a parameter which handles callbacks...
